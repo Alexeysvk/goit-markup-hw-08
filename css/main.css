@@ -73,8 +73,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--background-Hero)), to(var(--background-Hero))), url(../images/main-pic.jpg);
-  background-image: linear-gradient(to right, var(--background-Hero), var(--background-Hero)), url(../images/main-pic.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--background-Hero)), to(var(--background-Hero))), url(/images/main-pic.jpg);
+  background-image: linear-gradient(to right, var(--background-Hero), var(--background-Hero)), url(/images/main-pic.jpg);
 }
 
 .section-effect__title {
@@ -484,6 +484,10 @@ body {
   line-height: 1.192;
 }
 
+.navigation__logo:focus, .navigation__logo:hover {
+  color: var(--blue-color);
+}
+
 .navigation__web {
   color: var(--blue-color);
 }
@@ -495,6 +499,11 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
+  margin-bottom: 20px;
+}
+
+.footer-section__logo:hover {
+  color: var(--blue-color);
 }
 
 .navigation {
@@ -555,7 +564,7 @@ body {
   margin-right: 50px;
 }
 
-/* Портфолио */
+/* Portfolio*/
 .nav-list__portfolio.current::after {
   margin-top: 32px;
   display: block;
@@ -585,7 +594,7 @@ body {
   color: var(--blue-color);
 }
 
-/* Контакты */
+/* Contacnts */
 .contact-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -603,7 +612,7 @@ body {
   line-height: 1.142;
 }
 
-/* почта */
+/* mail */
 .contact-item__icon {
   fill: currentColor;
   margin-right: 10px;
@@ -629,7 +638,7 @@ body {
   color: var(--blue-color);
 }
 
-/* телефон */
+/* Phone */
 .contact-item__icon {
   fill: currentColor;
   margin-right: 10px;
@@ -1118,7 +1127,7 @@ body {
   color: var(--blue-color);
 }
 
-.footer-address > .footer-section__logo {
+.footer-section__logo {
   margin-bottom: 20px;
 }
 
@@ -1137,3 +1146,4 @@ body {
 .footer-address__link:hover, .footer-address__link:focus {
   color: var(--blue-color);
 }
+/*# sourceMappingURL=main.css.map */
