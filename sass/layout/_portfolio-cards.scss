@@ -64,6 +64,27 @@
     font-size: 18px;
   }
 }
+.portfolio-overlay {
+  bottom: 0;
+  width: 370px;
+  height: 294px;
+  background: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  transition: transform 250ms var(--cubic-bezier);
+  transform: translateY(100%);
+}
+
+.portfolio-cards__link {
+  color: var(--black-color);
+
+  &:hover .portfolio-overlay,
+  &:focus .portfolio-overlay {
+    transform: translate(0);
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 18px;
+  }
+}
 
 .portfolio-name {
   flex-grow: 1;
