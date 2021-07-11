@@ -5,6 +5,7 @@
     border: 0;
     background-color: transparent;
     color: var(--black-color);
+    cursor: pointer;
     &:hover,
     &:focus {
       color: var(--blue-color);
@@ -60,9 +61,10 @@
     border: 0;
     background-color: transparent;
     color: var(--black-color);
+    cursor: pointer;
     &:hover,
     &:focus {
-      color: var(--blue-color);
+      fill: var(--blue-color);
     }
     @media screen and (min-width: 768px) {
       display: none;

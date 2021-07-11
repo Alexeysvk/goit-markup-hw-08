@@ -1641,6 +1641,7 @@ nav .nav-list__link--studio.current {
   border: 0;
   background-color: transparent;
   color: var(--black-color);
+  cursor: pointer;
 }
 
 .menu-open:hover, .menu-open:focus {
@@ -1709,10 +1710,11 @@ nav .nav-list__link--studio.current {
   border: 0;
   background-color: transparent;
   color: var(--black-color);
+  cursor: pointer;
 }
 
 .mob-menu__close:hover, .mob-menu__close:focus {
-  color: var(--blue-color);
+  fill: var(--blue-color);
 }
 
 @media screen and (min-width: 768px) {
