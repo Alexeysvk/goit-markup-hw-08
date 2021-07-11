@@ -124,17 +124,17 @@
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 42px;
-    border: 1px solid rgba(33, 33, 33, 1);
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border 250ms var(--cubic-bezier);
   
     &:focus,
     &:hover{
-      border-color: var(--blue-color);
-      outline: none;
+      outline-color: var(--blue-color);
+      
     }
 
-    }
+    
     &:focus + .modal-form__svg,
     &:hover + .modal-form__svg {
       fill: var(--blue-color);
@@ -176,7 +176,7 @@
   
     &:focus,
     &:hover {
-      border-color: var(--blue-color);
+      outline-color: var(--blue-color);
     }
     @media screen and (max-width: 479px) {
       height: 100px;
