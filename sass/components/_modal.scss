@@ -124,15 +124,17 @@
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 42px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid rgba(33, 33, 33, 1);
     border-radius: 4px;
     transition: border 250ms var(--cubic-bezier);
   
     &:focus,
-    &:hover {
+    &:hover{
       border-color: var(--blue-color);
+      outline: none;
     }
-  
+
+    }
     &:focus + .modal-form__svg,
     &:hover + .modal-form__svg {
       fill: var(--blue-color);
@@ -141,7 +143,7 @@
       height: 30px;
     }
   }
-  
+
   .modal-form__svg {
     fill: var(--black-color);
     margin-bottom: 4px;
