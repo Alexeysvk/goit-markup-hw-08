@@ -8,7 +8,6 @@
   color: var(--color-grey);
   margin-bottom: 30px;
   display: flex;
-  justify-content: center;
 }
 
 .modal-check__svg {
@@ -30,7 +29,7 @@
     border-color: var(--blue-color);
     align-items: center;
     justify-content: center;
-    background-image: url("/images/icons/nike.svg");
+    background-image: url("../images/icons/nike.svg");
     background-size: contain;
     background-origin: border-box;
   }
