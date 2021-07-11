@@ -30,7 +30,7 @@
     }
   }
   
-  .modal-section {
+.modal-section {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -57,7 +57,7 @@
     }
   }
   
-  .modal-section__close {
+.modal-section__close {
     display: flex;
     position: absolute;
     justify-content: center;
@@ -79,14 +79,14 @@
     }
   }
   
-  .modal-form {
+.modal-form {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
   }
   
-  .modal-form__title {
+.modal-form__title {
     font-weight: bold;
     font-size: 20px;
     line-height: 1.15;
@@ -102,7 +102,7 @@
     }
   }
   
-  .modal-form__name {
+.modal-form__name {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
@@ -111,13 +111,13 @@
     margin-bottom: 10px;
   }
   
-  .modal-form__item {
+.modal-form__item {
     position: relative;
     display: block;
     margin-top: 4px;
   }
   
-  .modal-form__input {
+.modal-form__input {
     display: block;
     height: 40px;
     width: 100%;
@@ -144,7 +144,7 @@
     }
   }
 
-  .modal-form__svg {
+.modal-form__svg {
     fill: var(--black-color);
     margin-bottom: 4px;
     top: 50%;
@@ -154,7 +154,7 @@
     transition: fill 250ms var(--cubic-bezier);
   }
   
-  .modal-form__textarea {
+.modal-form__textarea {
     resize: none;
     width: 100%;
     height: 120px;
@@ -183,7 +183,7 @@
     }
   }
   
-  .modal-check__contract {
+.modal-check__contract {
     display: inline-block;
     font-size: 12px;
     line-height: 1.17;
@@ -195,7 +195,7 @@
     }
   }
   
-  .modal-form__button {
+.modal-form__button {
     display: inline-block;
     font-family: inherit;
     background-color: var(--background-color-button);
